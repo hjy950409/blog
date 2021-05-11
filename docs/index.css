@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff') format('woff');
+}
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamBold.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff') format('woff');
+}
+html * {
+ font-family: 'LotteMartDream', sans-serif;
+}
+/*노말라이징*/
+ul,li,body{
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/*노말라이징 종료*/
+/*라이브러리*/
+.inline-grid{
+  font-size: 0rem;
+}
+.inline-grid > *{
+  font-size: 1rem;
+  vertical-align: top;
+  display: inline-block;
+}
+.con{
+margin-right:auto;
+margin-left:auto;
+}
+.con{
+  width:1200px;
+}
+/*라이브러리 종료*/
+/*작업*/
+/*탑바*/
+.top-bar-wrap{
+  
+  
+  
+  width:100%;
+  background-color:orange;
+}
+.top-bar-wrap  > .top-bar{
+  text-align:center;
+
+}
+.top-bar-wrap  > .top-bar > div{
+  padding: 20px 0;
+}
+.top-bar-wrap > .top-bar > div:first-child{
+  width:300px;
+  background-color:orange;
+}
+
+
+.top-bar-wrap > .top-bar > div:last-child{
+  width:calc( 100% - 300px );
+  text-align:right;
+  
+}
+.top-bar-wrap  > .top-bar > .top__bar-menu {
+  text-align:center;
+ 
+}
+.top-bar-wrap  > .top-bar > .top__bar-menu > ul{
+ padding: 0 10px;
+ 
+ 
+}
+.top-bar-wrap  > .top-bar > .top__bar-menu > ul > li{
+  display:inline-block;
+    position:relative;
+  
+}
+
+.top-bar-wrap  > .top-bar > .top__bar-menu  ul > li > a{
+  padding:20px 20px;
+}
+.top-bar-wrap > .top-bar > .top__bar-menu  ul > li > a{
+  color:black;
+  
+   
+  font-weight:bold;
+  white-space:nowrap;
+  
+}
+.top-bar-wrap > .top-bar > .top__bar-menu ul > li:hover > a{
+  background-color:black;
+  color:white;
+}
+.top-bar-wrap  > .top-bar > .top__bar-menu > ul ul{
+  display:none;
+  position:absolute;
+  top:160%;
+  left:-33px;
+  text-align:center;
+}
+
+.top-bar-wrap  > .top-bar > .top__bar-menu > ul > li:hover > ul{
+  display:block;
+}
+
+.top-bar-wrap  > .top-bar > .top__bar-menu > ul ul > li{
+  padding:13px 30px;
+  margin-top:15px;   
+}
+
+.top-bar-wrap  > .top-bar__menu-box-1 > ul ul > li > a {
+  padding:10px;
+  text-align:center;
+  
+}
